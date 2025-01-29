@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #0f172a;
+}
+
+.calculator {
+  border: 2px solid black;
+  border-radius: 12px;
+  box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.1);
+  color: orange;
+  height: auto;
+  width: 385px;
+  text-align: center;
+  padding-top: 12px;
+  padding-bottom: 22px;
+  background-color: #1e1e1e;
+}
+
+h1 {
+  border-bottom: 4px solid white;
+}
+
+#weight {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+label {
+  font-size: 28px;
+}
+#height {
+  margin-bottom: 20px;
+  font-size: 22px;
+  text-align: center;
+}
+label {
+  font-size: 28px;
+}
+
+button {
+  width: 150px; /* Adjust width */
+  height: 50px; /* Adjust height */
+  font-size: 18px; /* Increase text size */
+  padding: 10px; /* Add spacing inside the button */
+  border-radius: 8px; /* Optional: Rounded corners */
+  background-color: #00ffcc; /* Button color */
+  color: black; /* Text color */
+  border: none; /* Remove border */
+  cursor: pointer; /* Pointer on hover */
+}
+
+button:hover {
+  background-color: #00cc99; /* Slightly darker on hover */
+}
+
+#result{
+  color: white;
+  margin-top: 15px;
+  border: 1px solid white;
+  border-radius: 4px;
+}
